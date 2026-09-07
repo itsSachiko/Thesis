@@ -118,17 +118,18 @@ namespace Subtegral.DialogueSystem.Editor
             return compatiblePorts;
         }
 
-        public void CreateNewDialogueNode(string nodeName, Vector2 position)
+        public void CreateNewDialogueNode(string nodeName, string actorName, Vector2 position)
         {
-            AddElement(CreateNode(nodeName, position));
+            AddElement(CreateNode(nodeName, actorName, position));
         }
 
-        public DialogueNode CreateNode(string nodeName, Vector2 position)
+        public DialogueNode CreateNode(string nodeName, string actorName, Vector2 position)
         {
             var tempDialogueNode = new DialogueNode()
             {
                 title = nodeName,
                 DialogueText = nodeName,
+                ActorText = actorName,
                 GUID = Guid.NewGuid().ToString()
             };
             tempDialogueNode.styleSheets.Add(Resources.Load<StyleSheet>("Node"));
@@ -140,10 +141,19 @@ namespace Subtegral.DialogueSystem.Editor
             tempDialogueNode.SetPosition(new Rect(position,
                 DefaultNodeSize)); //To-Do: implement screen center instantiation positioning
 
+            var textFieldActor = new TextField("");
+            textFieldActor.RegisterValueChangedCallback(evt =>
+            {
+                tempDialogueNode.ActorText = evt.newValue;
+            });
+            textFieldActor.SetValueWithoutNotify(tempDialogueNode.ActorText);
+            tempDialogueNode.mainContainer.Add(textFieldActor);
+
             var textField = new TextField("");
             textField.RegisterValueChangedCallback(evt =>
             {
                 tempDialogueNode.DialogueText = evt.newValue;
+                //tempDialogueNode.ActorText = evt.newValue;
                 tempDialogueNode.title = evt.newValue;
             });
             textField.SetValueWithoutNotify(tempDialogueNode.title);
@@ -218,6 +228,7 @@ namespace Subtegral.DialogueSystem.Editor
                 title = "START",
                 GUID = Guid.NewGuid().ToString(),
                 DialogueText = "ENTRYPOINT",
+                ActorText = "ENTRYPOINT",
                 EntyPoint = true
             };
 

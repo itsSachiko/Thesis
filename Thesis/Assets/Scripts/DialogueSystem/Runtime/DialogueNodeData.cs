@@ -7,6 +7,7 @@ namespace Subtegral.DialogueSystem.DataContainers
     public class DialogueNodeData
     {
         public string NodeGUID;
+        public string ActorText;
         public string DialogueText;
         public Vector2 Position;
     }

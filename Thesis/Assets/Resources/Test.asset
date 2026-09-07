@@ -28,15 +28,19 @@ MonoBehaviour:
   DialogueNodeData:
   - NodeGUID: ce72d634-30c8-4572-a7a3-f49fa8b68339
     DialogueText: Dialogue Node
-    Position: {x: 287.2, y: 180}
+    ActorText: Genitore1
+    Position: {x: 287, y: 180}
   - NodeGUID: becfcfde-4495-4dc5-8775-32e1d667bd14
     DialogueText: tuo padre
-    Position: {x: 599.2, y: 288}
+    ActorText: Genitore3
+    Position: {x: 599, y: 288}
   - NodeGUID: df6fd964-ea37-4f6f-bf1e-9a2e42491046
     DialogueText: gianluca
-    Position: {x: 868.8, y: 85.6}
+    ActorText: Genitore4
+    Position: {x: 869, y: 86}
   - NodeGUID: 51299f69-374c-46cf-9ae4-473dd1cc0004
     DialogueText: Suca
-    Position: {x: 572, y: 85.6}
+    ActorText: Genitore2
+    Position: {x: 573, y: 86}
   ExposedProperties: []
   CommentBlockData: []
