@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: MouseFirstInt
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: e05ee9d1-5732-4cfb-9b29-4a0befa74412
+    PortName: Next
+    TargetNodeGUID: dd23b592-5f97-433c-8574-02f486f59734
+  - BaseNodeGUID: dd23b592-5f97-433c-8574-02f486f59734
+    PortName: Fine
+    TargetNodeGUID: 7f575fea-48af-41d1-9f54-cae8529ace00
+  - BaseNodeGUID: dd23b592-5f97-433c-8574-02f486f59734
+    PortName: Bad
+    TargetNodeGUID: 57ab9f57-c5d4-4a21-9418-eaaf9ed4c7fb
+  - BaseNodeGUID: 57ab9f57-c5d4-4a21-9418-eaaf9ed4c7fb
+    PortName: Option 1
+    TargetNodeGUID: 4090deab-ecc1-428f-87db-88c0a3fe4276
+  - BaseNodeGUID: 4090deab-ecc1-428f-87db-88c0a3fe4276
+    PortName: Option 1
+    TargetNodeGUID: 550ecbc0-fce4-4a06-abee-03aa5d79defd
+  - BaseNodeGUID: 7f575fea-48af-41d1-9f54-cae8529ace00
+    PortName: Option 1
+    TargetNodeGUID: 575e14de-a780-42b1-89a8-556129dbc856
+  - BaseNodeGUID: 550ecbc0-fce4-4a06-abee-03aa5d79defd
+    PortName: Option 1
+    TargetNodeGUID: c0e7a746-662a-40a8-984d-3361df5d26c1
+  - BaseNodeGUID: 575e14de-a780-42b1-89a8-556129dbc856
+    PortName: Option 1
+    TargetNodeGUID: 550ecbc0-fce4-4a06-abee-03aa5d79defd
+  - BaseNodeGUID: c0e7a746-662a-40a8-984d-3361df5d26c1
+    PortName: Option 1
+    TargetNodeGUID: 2d67c884-6494-4132-a299-bb22f3ecaff0
+  DialogueNodeData:
+  - NodeGUID: dd23b592-5f97-433c-8574-02f486f59734
+    ActorText: Mouse
+    DialogueText: Hi! My name is Gigio. How are you?
+    Position: {x: 230.4, y: 172}
+  - NodeGUID: 57ab9f57-c5d4-4a21-9418-eaaf9ed4c7fb
+    ActorText: Me
+    DialogueText: Good, thank you
+    Position: {x: 637.6, y: 127.200005}
+  - NodeGUID: 4090deab-ecc1-428f-87db-88c0a3fe4276
+    ActorText: Gigio
+    DialogueText: Nice to hear it, I need a favour
+    Position: {x: 927.2, y: 127.200005}
+  - NodeGUID: 7f575fea-48af-41d1-9f54-cae8529ace00
+    ActorText: Me
+    DialogueText: I'm tired :C
+    Position: {x: 637.6, y: 252}
+  - NodeGUID: 550ecbc0-fce4-4a06-abee-03aa5d79defd
+    ActorText: Me
+    DialogueText: 'Tell me '
+    Position: {x: 1316, y: 196}
+  - NodeGUID: 575e14de-a780-42b1-89a8-556129dbc856
+    ActorText: Gigio
+    DialogueText: Sorry to hear that, I need a favour
+    Position: {x: 906.4, y: 252}
+  - NodeGUID: c0e7a746-662a-40a8-984d-3361df5d26c1
+    ActorText: Gigio
+    DialogueText: Do you see that girl over there? She stole my cheese. Can you ask
+      her to give it back pls?
+    Position: {x: 1564, y: 196}
+  - NodeGUID: 2d67c884-6494-4132-a299-bb22f3ecaff0
+    ActorText: Me
+    DialogueText: Oki
+    Position: {x: 2268.8, y: 196}
+  ExposedProperties: []
+  CommentBlockData: []

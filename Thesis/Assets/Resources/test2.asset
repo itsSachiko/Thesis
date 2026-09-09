@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: test2
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 2c45619e-534c-4e18-bfa4-35cb60654146
+    PortName: Next
+    TargetNodeGUID: 1265edb2-03a6-4b3f-a4ba-4d73e0a3ef26
+  DialogueNodeData:
+  - NodeGUID: 1265edb2-03a6-4b3f-a4ba-4d73e0a3ef26
+    ActorText: giorgia
+    DialogueText: "questa \xE8 una prova"
+    Position: {x: 243.2, y: 200}
+  ExposedProperties: []
+  CommentBlockData: []

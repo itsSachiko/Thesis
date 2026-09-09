@@ -72,6 +72,9 @@
 
 # 2\. aggiunta l'opzione di mettere il nome dell'actor del dialogo corrente.
 
+# 3\. aggiunto il singleton per far sì che se ci siano troppe istanze 
+dello stesso tipo si rischia l'overflow
+
 # 
 
 # \## Licenza

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: MouseSecondInt
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: 821dd316-2895-4ba1-aaa3-4c23c9dc9b03
+    PortName: Next
+    TargetNodeGUID: c096dc7a-b58b-45bf-a1a5-b26f84d871cb
+  - BaseNodeGUID: c096dc7a-b58b-45bf-a1a5-b26f84d871cb
+    PortName: Option 1
+    TargetNodeGUID: c4161349-74d0-47fe-a21c-440ffe11f7c9
+  - BaseNodeGUID: c4161349-74d0-47fe-a21c-440ffe11f7c9
+    PortName: Option 1
+    TargetNodeGUID: 658eea55-aeee-4f62-aae3-ab2eaa04b7a7
+  - BaseNodeGUID: 658eea55-aeee-4f62-aae3-ab2eaa04b7a7
+    PortName: Option 1
+    TargetNodeGUID: e971030a-3901-4ca8-9792-cf904bb1a5b3
+  - BaseNodeGUID: e971030a-3901-4ca8-9792-cf904bb1a5b3
+    PortName: Option 1
+    TargetNodeGUID: d3a09510-0c27-4b7c-9375-eaedf60bc01a
+  DialogueNodeData:
+  - NodeGUID: c096dc7a-b58b-45bf-a1a5-b26f84d871cb
+    ActorText: Me
+    DialogueText: She said you have to become her friend and then she will give you
+      back your cheese
+    Position: {x: 210.4, y: 183.20001}
+  - NodeGUID: c4161349-74d0-47fe-a21c-440ffe11f7c9
+    ActorText: Gigio
+    DialogueText: What?
+    Position: {x: 898.4, y: 183.20001}
+  - NodeGUID: 658eea55-aeee-4f62-aae3-ab2eaa04b7a7
+    ActorText: Me
+    DialogueText: Maybe she is just alone! Maybe she stole your cheese because she
+      doesn't have any friend
+    Position: {x: 582.4, y: 329.6}
+  - NodeGUID: e971030a-3901-4ca8-9792-cf904bb1a5b3
+    ActorText: Me
+    DialogueText: 'Maybe she did it because she didnt know how to approach you. Don''t
+      you think? Maybe she just want to be choosen once in her life. '
+    Position: {x: 582.4, y: 441.6}
+  - NodeGUID: d3a09510-0c27-4b7c-9375-eaedf60bc01a
+    ActorText: Gigio
+    DialogueText: ...Dude it's just a piece of cheese, imma go talk to her
+    Position: {x: 582.4, y: 553.6}
+  ExposedProperties: []
+  CommentBlockData: []
