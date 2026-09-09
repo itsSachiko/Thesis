@@ -25,6 +25,7 @@ namespace Subtegral.DialogueSystem.Runtime
         }
         public void StartDialogue(DialogueContainer _dialogue)
         {
+            dialogue = _dialogue;
             var narrativeData = _dialogue.NodeLinks.First(); //Entrypoint node
             ProceedToNarrative(narrativeData.TargetNodeGUID);
             //Time.timeScale = 0;

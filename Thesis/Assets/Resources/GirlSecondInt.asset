@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: GirlSecondInt
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGUID: be9e4c90-420e-4ee9-b327-ceddf3b72cf1
+    PortName: Next
+    TargetNodeGUID: bbc09cbd-b2c4-49d2-94dd-2f1152c22e91
+  - BaseNodeGUID: bbc09cbd-b2c4-49d2-94dd-2f1152c22e91
+    PortName: Option 1
+    TargetNodeGUID: d57cad5a-a7de-41de-a118-484e784dc185
+  - BaseNodeGUID: d57cad5a-a7de-41de-a118-484e784dc185
+    PortName: Option 1
+    TargetNodeGUID: 9b6b682d-cb26-494a-ae43-753a608e6490
+  - BaseNodeGUID: 9b6b682d-cb26-494a-ae43-753a608e6490
+    PortName: Option 1
+    TargetNodeGUID: fa2271be-7a64-4e1c-b19b-ebfd6cdf7b01
+  - BaseNodeGUID: fa2271be-7a64-4e1c-b19b-ebfd6cdf7b01
+    PortName: Option 1
+    TargetNodeGUID: 9e59b2a4-4e26-4ee4-b696-55891b2836d7
+  DialogueNodeData:
+  - NodeGUID: bbc09cbd-b2c4-49d2-94dd-2f1152c22e91
+    ActorText: Girl
+    DialogueText: Yo wassup
+    Position: {x: 237.6, y: 196}
+  - NodeGUID: d57cad5a-a7de-41de-a118-484e784dc185
+    ActorText: Me
+    DialogueText: Give me back the cheese you stole!!
+    Position: {x: 484.8, y: 196}
+  - NodeGUID: 9b6b682d-cb26-494a-ae43-753a608e6490
+    ActorText: Girl
+    DialogueText: 'You are crazy! '
+    Position: {x: 853.6, y: 196}
+  - NodeGUID: fa2271be-7a64-4e1c-b19b-ebfd6cdf7b01
+    ActorText: Me
+    DialogueText: C'mon
+    Position: {x: 1144.8, y: 196}
+  - NodeGUID: 9e59b2a4-4e26-4ee4-b696-55891b2836d7
+    ActorText: Girl
+    DialogueText: Fine! But convince him to become my friend
+    Position: {x: 1383.2, y: 196}
+  ExposedProperties: []
+  CommentBlockData: []

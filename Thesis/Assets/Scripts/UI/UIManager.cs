@@ -32,6 +32,7 @@ public class UIManager : Singleton<UIManager>
         DialogueManager.gameObject.SetActive(true);
         DialogueManager.StartDialogue(_dialogue);
 
+
         GameManager.Instance.playerController.stopMovementView = true;
         GameManager.Instance.playerController.stopMovementWalk = true;
         GameManager.Instance.playerController.OnStop();

@@ -76,7 +76,7 @@ namespace Subtegral.DialogueSystem.Editor
             ConstructGraphView();
             GenerateToolbar();
             GenerateMiniMap();
-            GenerateBlackBoard();
+            //GenerateBlackBoard();
         }
 
         private void GenerateMiniMap()
