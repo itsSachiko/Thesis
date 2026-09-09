@@ -3229,7 +3229,7 @@ MonoBehaviour:
         m_MethodName: StartDialogue
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: dbc6ad86eb5867a4c863c8932da14422, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: 6ce35531be343ac44976f74bf28aca24, type: 2}
           m_ObjectArgumentAssemblyTypeName: Subtegral.DialogueSystem.DataContainers.DialogueContainer,
             Runtime
           m_IntArgument: 0
@@ -5612,7 +5612,7 @@ MonoBehaviour:
         m_MethodName: StartDialogue
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: ab683299ae99c2248bbf814b66132cb2, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: 0ee9fd29687929246ac3a598cfe233ab, type: 2}
           m_ObjectArgumentAssemblyTypeName: Subtegral.DialogueSystem.DataContainers.DialogueContainer,
             Runtime
           m_IntArgument: 0
@@ -9415,8 +9415,8 @@ Transform:
   m_GameObject: {fileID: 2130735651}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071065, z: -0, w: 0.7071071}
-  m_LocalPosition: {x: 5.5, y: 3.5767, z: 11.1268}
-  m_LocalScale: {x: 7.746434, y: 6.8467956, z: 1}
+  m_LocalPosition: {x: 5.5, y: 3.3972, z: 11.1272}
+  m_LocalScale: {x: 7.745656, y: 7.205682, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1001759010}

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
-  m_Name: Tutorial
+  m_Name: tutorial
   m_EditorClassIdentifier: 
   NodeLinks:
   - BaseNodeGUID: d7e2faa2-ef2e-4ff7-a1fb-f7ee384c7d80
@@ -80,11 +80,6 @@ MonoBehaviour:
     DialogueText: It's still in a seeding phase, so it's not perfect but it's usable
       and dynamic (and im pretty proud about it)
     Position: {x: 2558.4, y: 318.4}
-  - NodeGUID: c33791b7-a3b4-4a49-98ae-977d925f187f
-    ActorText: Elo
-    DialogueText: There is also a shader because i love graphics and vfx, but it's
-      not the main part
-    Position: {x: 1914.4, y: 318.4}
   - NodeGUID: ecca4a59-7851-4de1-87b2-d50f9845bdbb
     ActorText: Elo
     DialogueText: Click WASD to move, E to interact with the actors and left button
@@ -110,5 +105,10 @@ MonoBehaviour:
     ActorText: Elo
     DialogueText: Well, we don't really have a choice, don't we?
     Position: {x: 2073.6, y: 605.6}
+  - NodeGUID: c33791b7-a3b4-4a49-98ae-977d925f187f
+    ActorText: Elo
+    DialogueText: There is also a shader because i love graphics and vfx, but it's
+      not the main part (also dont try to swim i didnt add an animation for it)
+    Position: {x: 1914.4, y: 318.4}
   ExposedProperties: []
   CommentBlockData: []
